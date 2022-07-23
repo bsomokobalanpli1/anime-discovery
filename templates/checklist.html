@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block content %}
+<html>
+
+<head>
+    <style>
+        .about--wrapper {
+            border-radius: 25px;
+            background-color: #423e3f;
+            padding: 150px;
+            padding-top: 100px;
+            color: white;
+        }
+        p.c {
+            font-family: 'Allura';
+            font-size: 35px;
+            text-align: Center;
+            
+            font-weight: 400;
+        }
+
+        p.d {
+            font-family: 'Poppins', sans-serif;
+            font-size: 25px;
+            text-align: left;
+        }
+        .names {
+            font-family: 'Square Peg', cursive;
+            font-size: 40px;
+            font-weight: bolder;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <br></br>
+    <div class="about--wrapper">
+        <p class="c">CheckList: Anime Discovery</p>
+        <p class="d">
+            <ul>
+                <li>Flask: Flask is a Python framework that lets you develop web applications easily.</li>
+                <li>Database Usage:(SQL) Flask-SQLAlchemy is an extension for Flask that aims to simplify using SQLAlchemy with Flask by providing defaults and helpers to accomplish common tasks</li>
+                <li>Theme: All pages on the website have an overall theme (similar look and feel) that make the site consistent.</li>
+                <li>New Library Usage: Table Libraries (Present on pages: Home,About,Register, Login)</li>
+                <li>Ajax usage: Ajax was used on the main page along with Javascript to make the site more responsive</li>
+                <li>Javascript: (Swipper) is used and allow content on the page to automatically swipe/slide</li>
+                <li>Membership Area: The User is required to to register, then login in order to access the main page</li>
+                <li>General User: Login for the demo user: (username: demo@gmail.com), (Password: ThisIsForWPClass )</li>
+            </ul>
+        </p>
+        
+    </div>
+    
+
+</body>
+{% endblock content %}
+
+</html>

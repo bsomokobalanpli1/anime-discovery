@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block content %}
+<html>
+
+<head>
+  <style>
+    .welcome-text {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      grid-template-columns: 1fr;
+    }
+    p.a {
+      font-family: 'Allura';
+      font-size: 70px;
+      text-align: Center;
+      color: rgb(125, 58, 58);
+    }
+    p.c {
+      font-family: 'Allura';
+      font-size: 40px;
+      text-align: Center;
+      color: rgb(230, 201, 201);
+    }
+
+    p.d {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 15px;
+      text-align: left;
+      color: black;
+    }
+    p.e {
+      font-family: 'Allura';
+      font-size: 15px;
+      text-align: Center;
+      color: rgb(129, 119, 188);
+    }
+    </style>
+</head>
+
+<body>
+  <div class="welcome-text">
+    <p class="a">Welcome To Ultimate Anime Discovery Site.</p>
+    <p class="c">First Time here?...Please Sign Up, Otherwise Go ahead and Login In !</p>
+    <p class="e">You'll need to Login in order to access the main page.</p>
+  </div>
+</body>
+{% endblock content %}
+
+</html>
